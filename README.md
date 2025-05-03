@@ -1,12 +1,42 @@
-# React + Vite
+# React Rick and Morty App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based web application that fetches data from the Rick and Morty API and displays a list of characters. Users can toggle between light and dark themes, view character details on a separate page, and see a live-updating clock in the footer.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Character List**: Displays a list of characters with their images, names, and statuses.
+- **Character Details**: Clicking on a character redirects to a detailed page with additional information.
+- **Theme Toggle**: Switch between light and dark themes.
+- **Live Clock**: A live-updating clock is displayed in the footer on all pages.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+
+### Steps
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/231Kishan/TaskRock
+   
+   
+   npm install
+   API Used
+This project uses the Rick and Morty API to fetch character data.
+
+Customization
+Theme: You can customize the light and dark themes by editing the App.css file.
+Character Details: Modify the CharacterDetails.jsx file to display additional information.
+License
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
+
+Acknowledgments
+Rick and Morty API
+React Router for navigation
